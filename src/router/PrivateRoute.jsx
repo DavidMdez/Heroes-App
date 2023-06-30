@@ -10,7 +10,9 @@ export const PrivateRoute = ({ children }) => {
 
   const getLastPath = ( pathname, search) => {
     const lastPath = pathname + search;
-    localStorage.setItem( 'lastPath', lastPath );
+
+    if (logged)
+      localStorage.setItem( 'lastPath', lastPath );
   }
 
   useMemo( () => getLastPath( pathname, search ), [ pathname, search ] )
