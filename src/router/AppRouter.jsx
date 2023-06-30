@@ -9,7 +9,6 @@ export const AppRouter = () => {
   return (
     <>
       <Routes>
-        
         <Route path="login/*" element={ 
           <PublicRouter>
             <Routes>
