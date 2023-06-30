@@ -2,19 +2,16 @@
   "name": "heroes-spa",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "homepage": "https://davidmdez.github.io/Heroes-App",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "jest --watchAll",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "test": "jest --watchAll"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "query-string": "7.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
