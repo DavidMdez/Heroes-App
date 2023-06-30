@@ -9,6 +9,6 @@ yarn
 yarn dev
 ```
 
-## Github Page
+## Ver página
 
-https://davidmdez.github.io/Heroes-App/
+https://stately-unicorn-976c6e.netlify.app/
