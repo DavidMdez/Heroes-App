@@ -11,4 +11,4 @@ yarn dev
 
 ## Ver página
 
-https://stately-unicorn-976c6e.netlify.app/
+https://dav-mdez-heroes-app.netlify.app
