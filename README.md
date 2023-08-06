@@ -11,4 +11,4 @@ yarn dev
 
 ## Ver página
 
-https://dav-mdez-heroes-app.netlify.app
+https://davmdez-heroes-app.netlify.app
